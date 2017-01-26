@@ -1,14 +1,14 @@
-body {font-family: Source Sans Pro; margin: 0 auto; padding: 50px 0 0; line-height: 1.5em; color: #444; background: rgba(18, 52, 81, 0.12);}
+body {font-family: Source Sans Pro; margin: 0 auto; padding: 50px 0 0; color: #444; background: rgba(18, 52, 81, 0.12);}
 html, body {height: 100%;}
 
 h1 {font-size: 40px;}
 h1, h2, h3, h4, h5 {font-family: Source Sans Pro; -webkit-transform: skew(-10deg, 0);}
-header h1 {font-size: 100px; font-family: Lato; -webkit-transform: skew(-10deg, 0); font-weight: 900;}
+header h1 {font-size: 6em; font-family: Lato; -webkit-transform: skew(-10deg, 0); font-weight: 900;}
 code {font-family: 'Liberation Mono', 'Inconsolata', Monaco, courier, monospace;; border: 1px solid #eee; border-radius: 2px; white-space: nowrap; padding: 2px 4px; font-size: 12px;}
 .banner {z-index: 999; position: absolute; top: 30px; left: 0;}
 
-a {color: #444;}
-a:hover {color: #444;}
+a {color: rgba(18, 52, 81, 100);}
+a:hover {color: rgba(18, 52, 81, 100);}
 .container {overflow: auto;}
 header {text-align: center;}
 
@@ -101,7 +101,7 @@ a.button-nested:hover::after {border-color: #df6755 transparent transparent tran
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  width: 280px;
+  max-width: 280px;
   margin: 40px;
   }
 
@@ -111,7 +111,7 @@ a.button-nested:hover::after {border-color: #df6755 transparent transparent tran
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  width: 560px;
+  max-width: 560px;
   margin: 40px;
 }
 
